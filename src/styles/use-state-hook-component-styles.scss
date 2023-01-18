@@ -1,0 +1,20 @@
+#use-state-wrapper {
+    font-size: 20px;
+
+    button {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    span {
+        color: green;
+        border-radius: 2px;
+        border: 1px solid black;
+        padding: 2px 30px;
+        font-size: 32px;
+    }
+
+    #count-display-area {
+        margin: 0 5px 0 5px;
+    }
+}
