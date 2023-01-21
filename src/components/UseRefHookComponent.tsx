@@ -2,7 +2,6 @@
 import React, { ReactElement, useEffect, useRef, useState } from "react";
 import '../styles/use-ref-hook-component-styles.scss'
 
-
 /**
  * useRef hook
  * ===========
@@ -95,8 +94,7 @@ const UseRefHookComponent: React.FC = (): ReactElement => {
          * not getting updated.You always want to do all the management through react state or props instead of manually setting
          * these values.
          * 
-         * 
-         * Also it ia not recommend to append childs via refs. Instead do that using jsx/ tsx
+         * Also it ia not recommend to append childs via refs. Instead do that using jsx/ tsx.
          *      NOT RECOMMENDED -> inputRef.current?.appendChild 
          */
     };

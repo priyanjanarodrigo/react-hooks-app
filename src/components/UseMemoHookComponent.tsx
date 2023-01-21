@@ -80,7 +80,7 @@ const UseMemoHookComponent: React.FC = (): ReactElement => {
         return slowFunction(number);
 
         /** 
-         * Dependency parameters as an array. (secind parameter passed in to useMemo hook)
+         * Dependency parameters as an array. (second parameter passed in to useMemo hook)
          * In this case, the number state value is the dependency for slowFunction. Which means when the number value is changed,
          * we need to rerun the code inside useMemo hook. if the number value does not change, we do not need to rerun the code
          * inside useMemo as it is cached.
