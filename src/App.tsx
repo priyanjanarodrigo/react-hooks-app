@@ -4,7 +4,7 @@ import UseStateHookComponent from './components/UseStateHookComponent';
 import UseEffectHookComponent from './components/UseEffectHookComponent';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import UseMemoHookComponent from './components/UseMemoHookComponent';
-import UseReducerHookComponent from './components/UseReducerHookComponent';
+import UseReducerParenDemoComponent from './components/useReducer/UseReducerParenDemoComponent';
 import UseRefHookComponent from './components/UseRefHookComponent';
 import UseCallbacklHookComponent from './components/useCallbackHook/UseCallbacklHookComponent';
 import ContextDemoParent from './components/useContextHook/ContextDemoParent';
@@ -63,7 +63,7 @@ const App: React.FC = (): ReactElement => {
           <Route path="/useMemo" element={<UseMemoHookComponent />}></Route>
           <Route path="/useRef" element={<UseRefHookComponent />}></Route>
           <Route path="/useContext" element={<ContextDemoParent />}></Route>
-          <Route path="/useReducer" element={<UseReducerHookComponent />}></Route>
+          <Route path="/useReducer" element={<UseReducerParenDemoComponent />}></Route>
           <Route path="/useCallback" element={<UseCallbacklHookComponent />}></Route>
         </Routes>
       </BrowserRouter>

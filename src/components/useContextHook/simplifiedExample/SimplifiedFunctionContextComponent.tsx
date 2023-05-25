@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
 import { useTheme, useThemeUpdate } from "./ThemeContex";
 
-const SinplifiedFunctionContextComponent: React.FC = (): ReactElement => {
+const SimplifiedFunctionContextComponent: React.FC = (): ReactElement => {
     const darkTheme = useTheme();
     const themeUpdate = useThemeUpdate();
     const themeStyles = (dark: boolean): object => {
@@ -22,4 +22,4 @@ const SinplifiedFunctionContextComponent: React.FC = (): ReactElement => {
     );
 }
 
-export default SinplifiedFunctionContextComponent;
+export default SimplifiedFunctionContextComponent;

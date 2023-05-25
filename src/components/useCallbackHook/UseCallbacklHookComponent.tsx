@@ -4,6 +4,15 @@ import List from "./List";
 
 import '../../styles/use-callback-hook-component-styles.scss'
 
+/**
+ * References
+ * ==========
+ * 
+ *  https://www.youtube.com/watch?v=_AyFP5s69N4&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h
+ * 
+ *  https://blog.webdevsimplified.com/2020-05/memoization-in-react/
+ */
+
 const UseCallbacklHookComponent: React.FC = (): ReactElement => {
     const [number, setNumber] = useState(1);
     const [isDark, setIsDark] = useState(false);

@@ -6,7 +6,7 @@ import '../styles/use-state-hook-component-styles.scss'
  * useState hook
  * =============
  * 
- *  - To use useState hook al we need to do is importing "useState" and calling it as a function. 
+ *  - To use useState hook, all we need to do is importing "useState" and calling it as a function. 
  *    The value that we pass to useState hook will be what the default state is.
  * 
  *      Ex: Here we are calling uyseState with the default value/state 4
@@ -16,7 +16,7 @@ import '../styles/use-state-hook-component-styles.scss'
  *      
  *      const array = useState(4);
  * 
- *  - The recommended practise is to destructur this array as it returns 2 values. First value (in below example - myNumber) 
+ *  - The recommended practise is to destructure this array as it returns 2 values. First value (in below example - myNumber) 
  *    is going to be the current state at every single iteration of our render function (return) there in the component. 
  *    And the second value of the array which is returned by the useState hook is a function which is going to allow us to
  *    update the state (in below example - setMyNumber)

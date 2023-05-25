@@ -44,7 +44,7 @@ import '../styles/use-effect-hook-component-styles.scss'
  * 
  */
 const UseEffectHookComponent: React.FC = (): ReactElement => {
-
+    
     const [resourceType, setResourceType] = useState('posts');
     const [items, setItems] = useState([]);
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -109,7 +109,7 @@ const UseEffectHookComponent: React.FC = (): ReactElement => {
                 <button onClick={() => setResourceType('users')}>Users</button>
                 <button onClick={() => setResourceType('comments')}>Comments</button>
                 <h3>{resourceType}</h3>
-                {/* Just printing our two elements in the page */}
+                {/* Just printing out two elements on the page */}
                 {<pre>{JSON.stringify(items[0])}</pre>}
                 {<pre>{JSON.stringify(items[1])}</pre>}
                 <h4>Window Width (change the browser window size) = {windowWidth}</h4>

@@ -1,13 +1,13 @@
 import { ReactElement } from "react";
 import ThemeProvider from "./ThemeContex";
-import SinplifiedFunctionContextComponent from "./SinplifiedFunctionContextComponent";
+import SimplifiedFunctionContextComponent from "./SimplifiedFunctionContextComponent";
 
 const SimplifiedUseContextContextParent: React.FC = (): ReactElement => {
     return (
         <>
             <h3>Simplified Implementation Output</h3>
             <ThemeProvider>
-                <SinplifiedFunctionContextComponent />
+                <SimplifiedFunctionContextComponent />
             </ThemeProvider>
         </>
     );
