@@ -1,6 +1,6 @@
 // Importing useEffect hook
 import { ReactElement, useEffect, useState } from "react";
-import '../styles/use-effect-hook-component-styles.scss'
+import '../../styles/use-effect-hook-component-styles.scss'
 
 /**
  * useEffect hook

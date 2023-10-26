@@ -1,11 +1,11 @@
 import React, { ReactElement } from 'react';
 import './App.scss';
-import UseStateHookComponent from './components/UseStateHookComponent';
-import UseEffectHookComponent from './components/UseEffectHookComponent';
+import UseStateHookComponent from './components/useState/UseStateHookComponent';
+import UseEffectHookComponent from './components/useEffect/UseEffectHookComponent';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
-import UseMemoHookComponent from './components/UseMemoHookComponent';
+import UseMemoHookComponent from './components/useMemo/UseMemoHookComponent';
 import UseReducerParenDemoComponent from './components/useReducer/UseReducerParenDemoComponent';
-import UseRefHookComponent from './components/UseRefHookComponent';
+import UseRefHookComponent from './components/useRef/UseRefHookComponent';
 import UseCallbacklHookComponent from './components/useCallbackHook/UseCallbacklHookComponent';
 import ContextDemoParent from './components/useContextHook/ContextDemoParent';
 

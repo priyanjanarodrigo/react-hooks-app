@@ -1,6 +1,6 @@
 // Importing useRef hook
 import React, { ReactElement, useEffect, useRef, useState } from "react";
-import '../styles/use-ref-hook-component-styles.scss'
+import '../../styles/use-ref-hook-component-styles.scss'
 
 /**
  * useRef hook

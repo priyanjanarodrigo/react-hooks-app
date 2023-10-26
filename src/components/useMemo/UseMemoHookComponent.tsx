@@ -1,6 +1,6 @@
 // Importing useMemo hook
 import { ReactElement, useEffect, useMemo, useState } from "react";
-import '../styles/use-memo-hook-component-styles.scss'
+import '../../styles/use-memo-hook-component-styles.scss'
 
 /**
  * useMemo hook
